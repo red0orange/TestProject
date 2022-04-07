@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Config.h
+opencv2/core/core.hpp
+-
+memory
+-
+iostream
+-
+
+/home/hdh7/github_projects/TestProject/main.cc
+iostream
+-
+algorithm
+-
+fstream
+-
+chrono
+-
+opencv2/core/core.hpp
+-
+Config.h
+-
+
